@@ -20,7 +20,7 @@ class Sum extends Component{
     addNumbers(number1,number2){
         console.log(number1)
         console.log(number1 +number2)
-       var added =  number1 + number2;
+       var added =  +number1 + +number2;
        this.setState({ sum: added})
     }
 

@@ -33,7 +33,7 @@ class FilterObject extends Component {
             <span className="puzzleText"></span>
             <input className="inputLine"></input>
             <button className="confirmationButton"> Filter </button>
-            <span className="resultsBox filterObjectRB"></span>
+            <span className="resultsBox filterObjectRB">Filtered: </span>
           </div>
     
         )
